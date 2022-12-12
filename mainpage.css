@@ -1,0 +1,60 @@
+*{
+    outline: 1px dotted #aaa;
+}
+.container{
+    width: 1296px;
+    padding: 0 12px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mb-10{
+    margin-bottom: 80px;
+}
+.bgred{
+    background-color: #AA0601;
+}
+.red{
+    color: #AA0601;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    color: #fff;
+}
+.banner{
+    width: 1920px;
+    height: 787px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner a{
+    padding: 6px 12px;
+    line-height: 29px;
+}
