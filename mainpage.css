@@ -21,20 +21,14 @@
 .mb-6{
     margin-bottom: 48px;
 }
-.mb-10{
-    margin-bottom: 80px;
-}
 .ptb-10{
     padding: 80px 0;
 }
-.mr-48{
-    margin-right: 48px;
+.pb-4{
+    padding-bottom: 32px;
 }
-.ml-32{
-    margin-left: 32px;
-}
-.ml-64{
-    /* margin-left: 64px; */
+.ml-6{
+    margin-left: 48px;
 }
 .bgred{
     background-color: #AA0601;
@@ -129,17 +123,13 @@ a{
     line-height: 24px;
     text-align: justify;
 }
-.series img{
-    width: 416px;
-}
 .series .jcsb{
     justify-content: space-between;
 }
-.series li{
+.series li, .series img, .series .jcsb a{
     width: 416px;
 }
 .series .jcsb a{
-    width: 416px;
     line-height: 72px;
 }
 .bloodred{
@@ -232,4 +222,168 @@ a{
     margin: 0 auto;
     color: #fff;
     background-color: #AA0601;
+}
+.pt6pb4{
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.footer li, .footer p , .footer a{
+    color: #fff;
+}
+.footer p{
+    font-size: 36px;
+    line-height: 54px;
+}
+.footer a{
+    font-size: 16px;
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 24px;
+}
+.footer .noleftpadding{
+    padding-left: 0;
+}
+.footer img{
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+.footer .p0-16{
+    padding: 0 16px;
+}
+.footer .nopadding{
+    padding: 0 0 0 16px;
+}
+.footer .borderb{
+    border-bottom: 1px solid #fff;
+}
+.footer .small{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 0;
+}
+.footer .tarignt{
+    text-align: right;
+}
+@media screen and (min-width:760px) and (max-width:768px) {
+    .container{
+        width: 696px;
+        margin: 0 auto;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .banner{
+        width: auto;
+        height: 787px;
+        background-image: url(banner-sm.png);
+        background-size: cover;
+    }
+    .underbanner .item, .series li, .series img, .series .jcsb a, .recommend .customer, .recommend .customer img{
+        width: 336px;
+    }
+    .series .jcsb{
+        width: 336px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .series li:nth-child(1), .series li:nth-child(2){
+        margin-bottom: 24px;
+    }
+    .series .jcsb a{
+        width: 336px;
+    }
+    .jointname{
+        height: 800px;
+        background-repeat: no-repeat;
+        background-position: 20% 14%;
+    }
+    .jointname a, .jointname img{
+        width: 696px;
+    }
+    .jointname li:nth-child(1){
+        margin-bottom: 24px;
+    }
+    .connect .wrap{
+        width: 576px;
+    }
+    .connect .wrap p{
+        font-size: 16px;
+        line-height: 24PX;
+    }
+    .footer a{
+        line-height: 40px;
+    }
+    .footer img{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .footer .w768mb3{
+        margin-bottom: 24px;
+    }
+}
+@media screen and (min-width:370px) and (max-width:375px) {
+    .container{
+        width: 349px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .underbanner .item, .series li, .series img, .series .jcsb a, .jointname a, .jointname img, .recommend .customer, .connect .wrap, .connect .wrap a, .recommend .customer img{
+        width: 348px;
+    }
+    .header .flex{
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+    }.banner{
+        width: auto;
+        height: 396px;
+        background-image: url(banner-sm.png);
+        background-size: cover;
+    }
+    h1{
+        /* display: block; */
+        font-size: 24px;
+        /* font-weight: bold; */
+        line-height: 36px;
+        /* text-align: right; */
+    }
+    span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner .jcc-aife{
+        height: 396px;
+    }
+    h2, h3{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .mb-6{
+        margin-bottom: 24px;
+    }
+    .ptb-10{
+        padding: 40px 0;
+    }
+    .underbanner .item:nth-child(1), .underbanner .item:nth-child(2), .underbanner .item:nth-child(3){
+        margin-bottom: 24px;
+    }
+    .series li{
+        margin-bottom: 24px;
+    }
+    .jointname{
+        height: 740px;
+        width: auto;
+        /* background-image: url(bg.png);
+        background-repeat: no-repeat;
+        background-position: center 20%; */
+    }
+    .jointname img{
+        height: 240px;
+    }
+    .recommend .itemp-16{
+        height: 205px;
+    }
 }
