@@ -384,6 +384,14 @@ a{
         height: 240px;
     }
     .recommend .itemp-16{
-        height: 205px;
+        height: 173px;
+    }
+    .recommend .itemp-16 .mb-6{
+        margin-bottom: 72px;
+    }
+    .recommend .itemp-16 .mb-2{
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
     }
 }
