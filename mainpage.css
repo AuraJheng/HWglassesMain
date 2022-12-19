@@ -265,19 +265,22 @@ a{
 .footer .tarignt{
     text-align: right;
 }
-@media screen and (min-width:760px) and (max-width:768px) {
+@media (max-width:992px) {
     .container{
-        width: 696px;
+        max-width: 720px;
         margin: 0 auto;
     }
     .flex{
         flex-wrap: wrap;
     }
     .banner{
-        width: auto;
-        height: 787px;
+        /* width: auto;
+        height: 787px; */
         background-image: url(banner-sm.png);
         background-size: cover;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
     .underbanner .item, .series li, .series img, .series .jcsb a, .recommend .customer, .recommend .customer img{
         width: 336px;
@@ -323,9 +326,10 @@ a{
         margin-bottom: 24px;
     }
 }
-@media screen and (min-width:370px) and (max-width:375px) {
+@media (max-width:767px) {
     .container{
-        width: 349px;
+        max-width: 349px;
+        margin: 0 auto;
     }
     .flex{
         flex-wrap: wrap;
@@ -337,11 +341,15 @@ a{
         width: 80px;
         height: 80px;
         overflow: hidden;
-    }.banner{
-        width: auto;
-        height: 396px;
+    }
+    .banner{
+        /* width: auto;
+        height: 396px; */
         background-image: url(banner-sm.png);
         background-size: cover;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
     h1{
         /* display: block; */
